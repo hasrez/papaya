@@ -26,7 +26,7 @@ The project showcases the concept of transferring large data using a **chunked u
 ## Features and Benefits
 
 - **Reliable Data Transfer**: Utilizes TCP's built-in reliability for error-free transmission.
-- **Asynchronous Uploads**: Clients can upload chunks as needed without overwhelming the server.
+- **Asynchronous Uploads**: Clients can upload chunks as needed concurrently without overwhelming the server.
 - **Resource Optimization**: Reduces memory and network load by processing smaller chunks.
 - **Modular and Scalable**: Supports customization for diverse server architectures and requirements.
 
